@@ -50,6 +50,9 @@
 
             });
 
+            $("#getPhoto").on("click",function(){
+                window.location.href = "/getPhoto";
+            })
 
         });
 
@@ -127,6 +130,9 @@
     </div>
 
 
+<div>
+    <button id="getPhoto" name="getPhoto" type="button">hhh</button>
+</div>
 
 
 

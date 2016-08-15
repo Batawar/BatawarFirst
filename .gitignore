@@ -1,5 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
-/out
-/.gradle
-/.idea
-/build
+.idea/fileTemplates/
+.idea/modules/src/
+out/artifacts/jia.order.api/exploded/jia.order.api-1.0-SNAPSHOT.war/WEB-INF/classes/com/test/me/Dao/
+out/artifacts/jia.order.api/exploded/jia.order.api-1.0-SNAPSHOT.war/WEB-INF/classes/com/test/me/controller/
+out/artifacts/jia.order.api/exploded/jia.order.api-1.0-SNAPSHOT.war/WEB-INF/classes/com/test/me/info/
+out/artifacts/jia.order.api/exploded/jia.order.api-1.0-SNAPSHOT.war/WEB-INF/classes/com/test/me/service/
+out/artifacts/jia.order.api/exploded/jia.order.api-1.0-SNAPSHOT.war/WEB-INF/js/
+out/artifacts/jia.order.api/exploded/jia.order.api-1.0-SNAPSHOT.war/jsp/
+src/test/

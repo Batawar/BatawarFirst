@@ -60,11 +60,6 @@ public class MainController {
 		return map;
 	}
 
-	@RequestMapping("/signUp")
-	@Cacheable("signUP")
-	public String signUP(){
-		return "signUp";
-	}
 
 
 	@RequestMapping(value = "/insert",method = RequestMethod.GET)
@@ -92,18 +87,29 @@ public class MainController {
 		return "editUser";
 	}
 
-	@RequestMapping("/get")
-	public String getItem(HttpServletRequest request,HttpSession session){
-	//	Map<String,Object> map = new HashMap<String,Object>();
-		Enumeration<String> e = session.getAttributeNames();
-		while (e.hasMoreElements()) {
-			String s = e.nextElement();
-			System.out.println(s + " == " + session.getAttribute(s));
-		}
-
-		return "redirect:/edit";
-
+	@RequestMapping("/signUp")
+	@Cacheable("signUP")
+	public String signUP(){
+		return "signUp";
 	}
+
+	@RequestMapping("/getPhoto")
+	public String getPhoto(){
+		return "getPhoto";
+	}
+
+//	@RequestMapping("/get")
+//	public String getItem(HttpServletRequest request,HttpSession session){
+//	//	Map<String,Object> map = new HashMap<String,Object>();
+//		Enumeration<String> e = session.getAttributeNames();
+//		while (e.hasMoreElements()) {
+//			String s = e.nextElement();
+//			System.out.println(s + " == " + session.getAttribute(s));
+//		}
+//
+//		return "redirect:/edit";
+//
+//	}
 
 
 

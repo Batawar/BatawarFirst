@@ -7,5 +7,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class IsLogin {
-	public static boolean loginJudgment()
+	public static boolean loginJudgment(){
+		return false;
+	}
 }
